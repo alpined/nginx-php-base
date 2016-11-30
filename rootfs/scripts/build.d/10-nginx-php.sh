@@ -1,7 +1,7 @@
 
 apk --no-cache add nginx php5-fpm \
 	php5-mysqli php5-mysql php5-sqlite3 php5-pdo php5-pdo_mysql php5-pdo_sqlite \
-	php5-xmlrpc php5-xml php5-xmlreader php5-json \
+	php5-xmlrpc php5-xml php5-xmlreader php5-json php5-curl \
 	php5-gd php5-exif \
 	php5-zlib php5-zip \
 	php5-mcrypt \
