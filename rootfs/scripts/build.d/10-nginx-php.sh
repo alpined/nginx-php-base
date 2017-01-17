@@ -13,8 +13,8 @@ rm -fr /var/lib/nginx
 
 adduser -D nginx
 
-mkdir -p /var/lib/nginx/logs /var/lib/nginx/tmp /run/nginx /www/log
-chown -R nginx.nginx /var/lib/nginx /run/nginx /www/log
+mkdir -p /var/lib/nginx/logs /var/lib/nginx/tmp /run/nginx /www/logs
+chown -R nginx.nginx /var/lib/nginx /run/nginx /www/logs
 
 sed -i -e 's|^variables_order = .*$|variables_order = "EGPCS"|' /etc/php5/php.ini
 
